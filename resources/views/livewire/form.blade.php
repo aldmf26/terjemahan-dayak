@@ -10,7 +10,7 @@
         <div x-on:click="document.querySelector('html').setAttribute('data-theme', 'winter')" wire:click="dyToId" class="swap-on btn btn-info">Dayak Ke Indonesia</div>
         <span x-text="theme"></span>
     </label> 
-    <button class="text-info text-xl w-10 tooltip tooltip-right" data-tip="Klik Button Untuk Berganti Bahasa !"><i class="fa-regular fa-circle-question"></i></button>
+    <button class="text-info text-xl w-10 tooltip tooltip-right" data-tip="Klik Button Untuk Berganti Bahasa !"><i class="fa-solid fa-right-left"></i></button>
     
     <br>
     
