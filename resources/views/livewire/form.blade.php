@@ -6,10 +6,13 @@
     
     <label class="swap mb-2 text-light">
         <input type="checkbox" style="display:none" />
-        <div x-on:click="document.querySelector('html').setAttribute('data-theme', 'retro')" wire:click="idToDy" class="swap-off btn btn-primary">Indonesia Ke Dayak</div>
+        <div x-on:click="document.querySelector('html').setAttribute('data-theme', 'retro')" wire:click="idToDy" class="swap-off btn btn-primary" data-tip="hello">Indonesia Ke Dayak</div>
         <div x-on:click="document.querySelector('html').setAttribute('data-theme', 'winter')" wire:click="dyToId" class="swap-on btn btn-info">Dayak Ke Indonesia</div>
         <span x-text="theme"></span>
-    </label><br>
+    </label> 
+    <button class="text-info text-xl w-10 tooltip tooltip-right" data-tip="Klik Button Untuk Berganti Bahasa !"><i class="fa-regular fa-circle-question"></i></button>
+    
+    <br>
     
         <input autofocus id="inputTerjemahan" wire:keyup="terjemah" x-model="textTerjemah" wire:model="textTerjemah"
             class="input resize-none mb-1 p-4 w-full rounded-lg bg-gray-200 text-gray-800 focus:outline-none focus:bg-white"

@@ -13,7 +13,7 @@
         href="https://media.istockphoto.com/vectors/dayak-girl-holding-traditional-shield-cartoon-vector-collection-vector-id1044891524?k=6&m=1044891524&s=612x612&w=0&h=_pUrHfM3zRk7iWkhL1Uihtf1Ix8Cy6EBmI_Jh-6ILZk="
         rel="shortcut icon">
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         .logo {
             object-fit: cover;
