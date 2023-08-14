@@ -139,7 +139,7 @@
                     <h1 class="text-5xl font-bold">HI! Welcome. </h1>
                     <p class="py-6">Terjemahkan Bahasa Dayak dengan Mudah dan Akurat dengan Aplikasi Terjemahan Dayak!
                     </p>
-                    
+                    <a href="{{ route('dashboard') }}" target="_blank" class="btn btn-info btn-sm mb-2">Lihat List Kata</a>
                     @livewire('form')
                 </div>
 
